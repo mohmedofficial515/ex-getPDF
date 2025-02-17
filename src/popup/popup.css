@@ -1,0 +1,75 @@
+/* Sure, here's the contents for the file: /chrome-network-monitor/chrome-network-monitor/src/popup/popup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px!important;
+    height: 500px!important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; */
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.request-path {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.request-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.timestamp {
+    color: #666;
+    font-size: 0.8em;
+    margin-right: 10px;
+    min-width: 80px;
+}
+
+.path {
+    flex: 1;
+    word-break: break-all;
+    margin-right: 10px;
+}
+
+.copy-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background: #0056b3;
+}
+
+#clear-btn {
+    margin: 10px;
+    padding: 8px 16px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clear-btn:hover {
+    background: #c82333;
+}

@@ -74,7 +74,7 @@ const TileDownloader: React.FC = () => {
   };
 
   return (
-    <div className='bg-gray-100 p-4 rounded-lg mt-44 w-full'>
+    <div className='bg-gray-100 p-4 rounded-lg w-full h-[100vh] border'>
       <h2 className='text-[10px] text-dis ' dir='ltr'> Download PBF to JSON</h2>
       <div className='mb-4 border rounded-lg p-4'>
         <label>رابط الـ Tile:</label>

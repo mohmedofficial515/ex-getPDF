@@ -1,1 +1,2 @@
-(()=>{"use strict";chrome.webRequest.onCompleted.addListener((function(e){console.log("Request completed:",e.url),chrome.tabs.query({active:!0,currentWindow:!0},(function(o){chrome.tabs.sendMessage(o[0].id,{requestPath:e.url})}))}),{urls:["<all_urls>"]}),console.log("Background script loaded")})();
+/*! For license information please see background.js.LICENSE.txt */
+(()=>{"use strict";var e;e={},Object.defineProperty(e,"__esModule",{value:!0}),chrome.webRequest.onCompleted.addListener((function(e){console.log("Request completed:",e.url),chrome.tabs.query({active:!0,currentWindow:!0},(function(o){chrome.tabs.sendMessage(o[0].id,{requestPath:e.url})}))}),{urls:["<all_urls>"]}),console.log("Background script loaded")})();

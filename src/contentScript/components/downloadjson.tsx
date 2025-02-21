@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function DownloadGeoJson() {
+export default function DownloadJeson() {
   const [baseUrl, setBaseUrl] = useState("");
   const [useProxy, setUseProxy] = useState(false);
   const url = useProxy

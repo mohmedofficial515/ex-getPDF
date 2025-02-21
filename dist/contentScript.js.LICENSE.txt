@@ -1,1 +1,47 @@
+/*! ./PdfRequests */
+
+/*! ./components/downloadGeoJeson */
+
+/*! ./components/downloadGeoJeson-test */
+
+/*! ./components/downloadPBFFile */
+
+/*! ./components/dwonloadLayers */
+
+/*! @mapbox/vector-tile */
+
+/*! file-saver */
+
+/*! jszip */
+
+/*! pbf */
+
+/*! react */
+
+/*! react-dom/client */
+
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*!*******************************************!*\
+  !*** ./src/contentScript/PdfRequests.tsx ***!
+  \*******************************************/
+
+/*!*********************************************!*\
+  !*** ./src/contentScript/contentScript.tsx ***!
+  \*********************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/contentScript/components/dwonloadLayers.tsx ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/contentScript/components/downloadPBFFile.tsx ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/contentScript/components/downloadGeoJeson.tsx ***!
+  \***********************************************************/
+
+/*!****************************************************************!*\
+  !*** ./src/contentScript/components/downloadGeoJeson-test.tsx ***!
+  \****************************************************************/
